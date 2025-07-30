@@ -1,0 +1,5 @@
+a = int(input("enter a"))
+
+z = int(input("enter z"))
+
+print("remainder is ", a%z)
