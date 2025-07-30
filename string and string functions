@@ -1,0 +1,40 @@
+// string and string functions
+name = "Aadi"
+
+
+# index number 2 excluding hogi
+
+nameshort = name[0:2]
+
+print(nameshort)
+
+
+character1 = name[1]
+
+print(character1)
+
+
+word = "amazing"
+
+print(word[1:6:2])
+
+Name = "Aadi"
+
+print(len(Name))  # find length of the string
+
+
+print(Name.endswith("di"))   # return True or False
+
+
+print(Name.startswith("Aa"))   # return True or False
+
+
+print(Name.count("A")) # return counting 
+
+
+s = "Hello world"
+
+print(s.find("world"))   # find index
+
+
+print(s.replace("world", "python"))  # all occurance change by this function
